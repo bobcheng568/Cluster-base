@@ -1,0 +1,88 @@
+18-May-2020 19:57:58.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+18-May-2020 19:57:58.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+18-May-2020 19:57:58.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.13.4
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2
+18-May-2020 19:57:58.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2
+18-May-2020 19:57:58.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/conf/logging.properties
+18-May-2020 19:57:58.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-May-2020 19:57:58.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+18-May-2020 19:57:58.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-May-2020 19:57:58.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-May-2020 19:57:58.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+18-May-2020 19:57:58.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2
+18-May-2020 19:57:58.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2
+18-May-2020 19:57:58.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/temp
+18-May-2020 19:57:58.232 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-May-2020 19:57:58.575 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8082"]
+18-May-2020 19:57:58.612 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[621]毫秒内初始化
+18-May-2020 19:57:58.636 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-May-2020 19:57:58.637 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+18-May-2020 19:57:58.658 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/loginProject.war]
+18-May-2020 19:58:02.974 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.0.RELEASE)
+
+2020-05-18 19:58:04.103  INFO 92438 --- [           main] com.lagou.edu.SpringbootSssApplication   : Starting SpringbootSssApplication v0.0.1-SNAPSHOT on manqidemacbook-pro.local with PID 92438 (/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/loginProject/WEB-INF/classes started by manqi in /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/bin)
+2020-05-18 19:58:04.110  INFO 92438 --- [           main] com.lagou.edu.SpringbootSssApplication   : No active profile set, falling back to default profiles: default
+2020-05-18 19:58:05.269  INFO 92438 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-18 19:58:05.272  INFO 92438 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-05-18 19:58:05.575  INFO 92438 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 281ms. Found 1 JPA repository interfaces.
+2020-05-18 19:58:05.604  INFO 92438 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-18 19:58:05.606  INFO 92438 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-18 19:58:05.630  INFO 92438 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lagou.edu.mapper.ResumeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-05-18 19:58:05.631  INFO 92438 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-05-18 19:58:06.360  INFO 92438 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2210 ms
+2020-05-18 19:58:07.548  INFO 92438 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 19:58:07.575  INFO 92438 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-18 19:58:08.099  INFO 92438 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-18 19:58:08.184  INFO 92438 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 19:58:08.412  INFO 92438 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-05-18 19:58:09.051  INFO 92438 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 19:58:09.178  WARN 92438 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-18 19:58:09.700  INFO 92438 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-18 19:58:10.967  INFO 92438 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 19:58:10.991  INFO 92438 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 19:58:11.597  INFO 92438 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-05-18 19:58:12.506  INFO 92438 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-05-18 19:58:12.616  INFO 92438 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-05-18 19:58:12.625  INFO 92438 --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-05-18 19:58:12.644  INFO 92438 --- [           main] com.lagou.edu.SpringbootSssApplication   : Started SpringbootSssApplication in 9.397 seconds (JVM running for 14.942)
+18-May-2020 19:58:12.679 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/loginProject.war]的部署已在[14,022]ms内完成
+18-May-2020 19:58:12.679 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/docs]
+18-May-2020 19:58:12.694 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/docs]的部署已在[15]毫秒内完成
+18-May-2020 19:58:12.694 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/manager]
+18-May-2020 19:58:12.720 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/manager]的部署已在[26]毫秒内完成
+18-May-2020 19:58:12.720 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/examples]
+18-May-2020 19:58:12.915 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/examples]的部署已在[195]毫秒内完成
+18-May-2020 19:58:12.916 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/ROOT]
+18-May-2020 19:58:12.929 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/ROOT]的部署已在[13]毫秒内完成
+18-May-2020 19:58:12.929 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/host-manager]
+18-May-2020 19:58:12.946 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35-2/webapps/host-manager]的部署已在[17]毫秒内完成
+18-May-2020 19:58:12.950 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8082"]
+18-May-2020 19:58:12.960 信息 [main] org.apache.catalina.startup.Catalina.start [14,347]毫秒后服务器启动
+2020-05-18 19:58:22.815  INFO 92438 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-18 19:58:22.833  INFO 92438 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_

@@ -1,0 +1,385 @@
+18-May-2020 18:29:05.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.13.4
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+18-May-2020 18:29:05.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+18-May-2020 18:29:05.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/conf/logging.properties
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/temp
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-May-2020 18:29:05.983 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-May-2020 18:29:06.028 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[596]毫秒内初始化
+18-May-2020 18:29:06.054 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-May-2020 18:29:06.055 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+18-May-2020 18:29:06.075 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]
+18-May-2020 18:29:10.686 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 18:29:10.791 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]的部署已在[4,716]ms内完成
+18-May-2020 18:29:10.792 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]
+18-May-2020 18:29:10.807 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]的部署已在[15]毫秒内完成
+18-May-2020 18:29:10.807 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]
+18-May-2020 18:29:10.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]的部署已在[27]毫秒内完成
+18-May-2020 18:29:10.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]
+18-May-2020 18:29:11.045 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]的部署已在[210]毫秒内完成
+18-May-2020 18:29:11.045 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]
+18-May-2020 18:29:11.064 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[19]毫秒内完成
+18-May-2020 18:29:11.064 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]
+18-May-2020 18:29:11.083 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[18]毫秒内完成
+18-May-2020 18:29:11.086 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-May-2020 18:29:11.093 信息 [main] org.apache.catalina.startup.Catalina.start [5,064]毫秒后服务器启动
+18-May-2020 19:06:16.495 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+18-May-2020 19:06:16.497 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-May-2020 19:06:16.513 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-May-2020 19:06:16.618 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-May-2020 19:06:16.624 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-May-2020 19:06:34.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+18-May-2020 19:06:34.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+18-May-2020 19:06:34.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+18-May-2020 19:06:34.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.13.4
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/conf/logging.properties
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/temp
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-May-2020 19:06:34.474 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-May-2020 19:06:34.514 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[590]毫秒内初始化
+18-May-2020 19:06:34.537 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-May-2020 19:06:34.537 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+18-May-2020 19:06:34.560 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]
+18-May-2020 19:06:38.869 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:06:38.980 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]的部署已在[4,420]ms内完成
+18-May-2020 19:06:38.981 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]
+18-May-2020 19:06:38.997 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]的部署已在[16]毫秒内完成
+18-May-2020 19:06:38.997 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]
+18-May-2020 19:06:39.022 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]的部署已在[25]毫秒内完成
+18-May-2020 19:06:39.023 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]
+18-May-2020 19:06:39.247 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]的部署已在[224]毫秒内完成
+18-May-2020 19:06:39.247 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]
+18-May-2020 19:06:39.261 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[14]毫秒内完成
+18-May-2020 19:06:39.262 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]
+18-May-2020 19:06:39.278 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[17]毫秒内完成
+18-May-2020 19:06:39.282 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-May-2020 19:06:39.290 信息 [main] org.apache.catalina.startup.Catalina.start [4,775]毫秒后服务器启动
+18-May-2020 19:25:40.443 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/springboot-sss]
+18-May-2020 19:25:40.521 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]
+18-May-2020 19:25:43.771 信息 [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:25:43.860 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]的部署已在[3,338]ms内完成
+18-May-2020 19:25:54.365 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/springboot-sss]
+18-May-2020 19:25:54.404 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/login.war]
+18-May-2020 19:25:57.737 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:25:57.803 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/login.war]的部署已在[3,399]ms内完成
+18-May-2020 19:26:08.310 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/login]
+18-May-2020 19:26:08.343 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]
+18-May-2020 19:26:11.610 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:26:11.680 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]的部署已在[3,337]ms内完成
+18-May-2020 19:32:23.458 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+18-May-2020 19:32:23.459 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-May-2020 19:32:23.468 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-May-2020 19:32:23.505 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-May-2020 19:32:23.508 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-May-2020 19:50:04.042 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.13.4
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/conf/logging.properties
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/temp
+18-May-2020 19:50:04.052 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-May-2020 19:50:04.373 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-May-2020 19:50:04.409 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[558]毫秒内初始化
+18-May-2020 19:50:04.434 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-May-2020 19:50:04.434 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+18-May-2020 19:50:04.450 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]
+18-May-2020 19:50:08.614 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.0.RELEASE)
+
+2020-05-18 19:50:09.612  INFO 92195 --- [           main] com.lagou.edu.SpringbootSssApplication   : Starting SpringbootSssApplication v0.0.1-SNAPSHOT on manqidemacbook-pro.local with PID 92195 (/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject/WEB-INF/classes started by manqi in /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/bin)
+2020-05-18 19:50:09.616  INFO 92195 --- [           main] com.lagou.edu.SpringbootSssApplication   : No active profile set, falling back to default profiles: default
+2020-05-18 19:50:10.742  INFO 92195 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-18 19:50:10.746  INFO 92195 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-05-18 19:50:11.040  INFO 92195 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 278ms. Found 1 JPA repository interfaces.
+2020-05-18 19:50:11.076  INFO 92195 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-18 19:50:11.078  INFO 92195 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-18 19:50:11.103  INFO 92195 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lagou.edu.mapper.ResumeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-05-18 19:50:11.103  INFO 92195 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-05-18 19:50:11.807  INFO 92195 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2145 ms
+2020-05-18 19:50:13.013  INFO 92195 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 19:50:13.028  INFO 92195 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-18 19:50:13.441  INFO 92195 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-18 19:50:13.522  INFO 92195 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 19:50:13.721  INFO 92195 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-05-18 19:50:14.296  INFO 92195 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 19:50:14.452  WARN 92195 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-18 19:50:14.918  INFO 92195 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-18 19:50:16.004  INFO 92195 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 19:50:16.020  INFO 92195 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 19:50:16.505  INFO 92195 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-05-18 19:50:17.448  INFO 92195 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-05-18 19:50:17.580  INFO 92195 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-05-18 19:50:17.594  INFO 92195 --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-05-18 19:50:17.616  INFO 92195 --- [           main] com.lagou.edu.SpringbootSssApplication   : Started SpringbootSssApplication in 8.707 seconds (JVM running for 14.011)
+18-May-2020 19:50:17.654 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]的部署已在[13,204]ms内完成
+18-May-2020 19:50:17.655 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]
+18-May-2020 19:50:17.676 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]的部署已在[21]毫秒内完成
+18-May-2020 19:50:17.677 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]
+18-May-2020 19:50:17.714 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]的部署已在[37]毫秒内完成
+18-May-2020 19:50:17.714 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]
+18-May-2020 19:50:18.093 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]的部署已在[379]毫秒内完成
+18-May-2020 19:50:18.094 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]
+18-May-2020 19:50:18.114 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[21]毫秒内完成
+18-May-2020 19:50:18.114 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]
+18-May-2020 19:50:18.138 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[24]毫秒内完成
+18-May-2020 19:50:18.142 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-May-2020 19:50:18.152 信息 [main] org.apache.catalina.startup.Catalina.start [13,742]毫秒后服务器启动
+2020-05-18 19:50:22.455  INFO 92195 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-18 19:50:22.468  INFO 92195 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-05-18 19:50:23.121 ERROR 92195 --- [nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "login": An error happened during template parsing (template: "class path resource [templates/login.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/login.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:141) [spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) [spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:128) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:66) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:103) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:121) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [catalina.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.35]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-coyote.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-coyote.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-coyote.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.35]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.35]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "#session.id" (template: "login" - line 21, col 23)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 60 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "#session.id" (template: "login" - line 21, col 23)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 62 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 81 common frames omitted
+
+2020-05-18 19:50:23.124 ERROR 92195 --- [nio-8080-exec-1] o.s.b.w.servlet.support.ErrorPageFilter  : Forwarding to error page from request [/login/toLogin] due to exception [An error happened during template parsing (template: "class path resource [templates/login.html]")]
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/login.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-websocket.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:141) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:128) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:66) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:103) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:121) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [catalina.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.35]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [catalina.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-coyote.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-coyote.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-coyote.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.35]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.35]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "#session.id" (template: "login" - line 21, col 23)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 60 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "#session.id" (template: "login" - line 21, col 23)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 62 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337) ~[spring-expression-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 81 common frames omitted
+
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_
+Hibernate: select resume0_.id as id1_0_, resume0_.address as address2_0_, resume0_.name as name3_0_, resume0_.phone as phone4_0_ from tb_resume resume0_

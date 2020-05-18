@@ -1,0 +1,142 @@
+18-May-2020 18:29:05.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.13.4
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+18-May-2020 18:29:05.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+18-May-2020 18:29:05.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+18-May-2020 18:29:05.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/conf/logging.properties
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/temp
+18-May-2020 18:29:05.628 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-May-2020 18:29:05.983 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-May-2020 18:29:06.028 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[596]毫秒内初始化
+18-May-2020 18:29:06.054 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-May-2020 18:29:06.055 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+18-May-2020 18:29:06.075 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]
+18-May-2020 18:29:10.686 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 18:29:10.791 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]的部署已在[4,716]ms内完成
+18-May-2020 18:29:10.792 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]
+18-May-2020 18:29:10.807 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]的部署已在[15]毫秒内完成
+18-May-2020 18:29:10.807 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]
+18-May-2020 18:29:10.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]的部署已在[27]毫秒内完成
+18-May-2020 18:29:10.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]
+18-May-2020 18:29:11.045 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]的部署已在[210]毫秒内完成
+18-May-2020 18:29:11.045 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]
+18-May-2020 18:29:11.064 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[19]毫秒内完成
+18-May-2020 18:29:11.064 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]
+18-May-2020 18:29:11.083 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[18]毫秒内完成
+18-May-2020 18:29:11.086 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-May-2020 18:29:11.093 信息 [main] org.apache.catalina.startup.Catalina.start [5,064]毫秒后服务器启动
+18-May-2020 19:06:16.495 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+18-May-2020 19:06:16.497 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-May-2020 19:06:16.513 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-May-2020 19:06:16.618 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-May-2020 19:06:16.624 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-May-2020 19:06:34.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+18-May-2020 19:06:34.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+18-May-2020 19:06:34.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+18-May-2020 19:06:34.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.13.4
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/conf/logging.properties
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-May-2020 19:06:34.133 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/temp
+18-May-2020 19:06:34.134 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-May-2020 19:06:34.474 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-May-2020 19:06:34.514 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[590]毫秒内初始化
+18-May-2020 19:06:34.537 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-May-2020 19:06:34.537 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+18-May-2020 19:06:34.560 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]
+18-May-2020 19:06:38.869 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:06:38.980 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]的部署已在[4,420]ms内完成
+18-May-2020 19:06:38.981 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]
+18-May-2020 19:06:38.997 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]的部署已在[16]毫秒内完成
+18-May-2020 19:06:38.997 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]
+18-May-2020 19:06:39.022 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]的部署已在[25]毫秒内完成
+18-May-2020 19:06:39.023 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]
+18-May-2020 19:06:39.247 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]的部署已在[224]毫秒内完成
+18-May-2020 19:06:39.247 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]
+18-May-2020 19:06:39.261 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[14]毫秒内完成
+18-May-2020 19:06:39.262 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]
+18-May-2020 19:06:39.278 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[17]毫秒内完成
+18-May-2020 19:06:39.282 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-May-2020 19:06:39.290 信息 [main] org.apache.catalina.startup.Catalina.start [4,775]毫秒后服务器启动
+18-May-2020 19:25:40.443 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/springboot-sss]
+18-May-2020 19:25:40.521 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]
+18-May-2020 19:25:43.771 信息 [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:25:43.860 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/springboot-sss.war]的部署已在[3,338]ms内完成
+18-May-2020 19:25:54.365 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/springboot-sss]
+18-May-2020 19:25:54.404 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/login.war]
+18-May-2020 19:25:57.737 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:25:57.803 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/login.war]的部署已在[3,399]ms内完成
+18-May-2020 19:26:08.310 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/login]
+18-May-2020 19:26:08.343 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]
+18-May-2020 19:26:11.610 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:26:11.680 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]的部署已在[3,337]ms内完成
+18-May-2020 19:32:23.458 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+18-May-2020 19:32:23.459 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-May-2020 19:32:23.468 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-May-2020 19:32:23.505 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-May-2020 19:32:23.508 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-May-2020 19:50:04.042 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.13.4
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/conf/logging.properties
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35
+18-May-2020 19:50:04.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/temp
+18-May-2020 19:50:04.052 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-May-2020 19:50:04.373 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-May-2020 19:50:04.409 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[558]毫秒内初始化
+18-May-2020 19:50:04.434 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-May-2020 19:50:04.434 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+18-May-2020 19:50:04.450 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]
+18-May-2020 19:50:08.614 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-May-2020 19:50:17.654 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/loginProject.war]的部署已在[13,204]ms内完成
+18-May-2020 19:50:17.655 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]
+18-May-2020 19:50:17.676 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/docs]的部署已在[21]毫秒内完成
+18-May-2020 19:50:17.677 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]
+18-May-2020 19:50:17.714 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/manager]的部署已在[37]毫秒内完成
+18-May-2020 19:50:17.714 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]
+18-May-2020 19:50:18.093 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/examples]的部署已在[379]毫秒内完成
+18-May-2020 19:50:18.094 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]
+18-May-2020 19:50:18.114 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[21]毫秒内完成
+18-May-2020 19:50:18.114 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]
+18-May-2020 19:50:18.138 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/admin/Documents/lagou-edu/homework/Cluster-base/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[24]毫秒内完成
+18-May-2020 19:50:18.142 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-May-2020 19:50:18.152 信息 [main] org.apache.catalina.startup.Catalina.start [13,742]毫秒后服务器启动
